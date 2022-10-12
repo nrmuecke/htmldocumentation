@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>HTMl Documentation Page</title>
+    </head>    
+    <body>
+        <div class="sidebar">                                     
+            <nav id="navbar">
+                <header>
+                    HTML Documentation
+                </header>   
+                <a href="#introduction" class="nav-link">Introduction</a>
+                <a href="#elements" class="nav-link">Elements</a>
+                <a href="#attributes" class="nav-link">Attributes</a>
+                <a href="#links" class="nav-link">Links</a>
+                <a href="#images" class="nav-link">Images</a>
+            </nav> 
+        </div>
+        <main id="main-doc">
+            <section class="main-section" id="introduction">
+                <header>
+                    <h1 class="introduction">Introduction</h1>
+                </header>
+                <p>HTML is a language used by web developers to create websites. It typically is used alongside CSS, with HTML supplying the main body of information and CSS styling said information.</p>
+                <p>
+                    HTML is one of the most basic coding languages out there. It is a great starting point for people learning to code and yet can still be quite useful despite it's simplicity.
+                </p>
+            </section>
+            <section class="main-section" id="elements">
+                <header>
+                    <h1>Elements</h1>
+                </header>
+                <p>An element is a piece of a webpage. It typically consists of an opening tag, some content and a closing tag. The opening tag will provide the name of the element and thus define the content. The content will make up the main part of the element and then the closing tag will signal an end to the element.</p>
+                <p>You can also put an element inside of another element. This is called nesting. To do this, simply wrap whatever part of the element you want nested in a new tag, just remember to close it properly within the element you add it to.</p>
+                <p>Another thing to be aware of is empty elements. These elements contain no closing tag and all of their content is within the opening tag. These can also be referred to as self-closing elements.</p>
+                <h3>
+                    Here are some of the essential elements that you will likely have within your html code:
+                </h3>
+                <ul>
+                    <li>First off we have the <code>DOCTYPE HTML</code> which is a self-closing element. It is essentially used to declare what type of code you are writing so that your webpage knows what language it is reading.</li>
+                    <li>Next up, the <code>html</code> element. This will all the content on your entire page and is considered the "root" element.</li>
+                    <li>The <code>head</code> element is a container for all of the content in your html that you don't want to be visible.</li>
+                    <li>The <code>meta charset="utf-8"</code> sets the characters or letters that your document is able to understand. The "utf-8" is able to understand the vast majority of written languages so this allows your document to handle just about any text that you might want to use.</li>
+                    <li><code>Title</code> is how you title the page. This is also the text that will display on the tab that your page is located on and also to describe the page when it's bookmarked.</li>
+                    <li>Finally the <code>body</code> element. This contains all of the content that you do want to show. So essentially everything outside of the head element. This includes text, images, videos, games, playable audio tracks, etc.</li>
+                </ul>
+            </section>
+            <section class="main-section" id="attributes">
+                <header>
+                    <h1>Attributes</h1>
+                </header>
+                <p>Attributes can be used in several ways to add additional information to an element without adding it to the actual content. They typically take the form of <code>name="value"</code> where the name identifies the attribute and the value defines what the attribute is or does.</p>
+                <p>Attributes are an extremely useful tool that allows us to customize our elements to fit our needs.</p>
+            </section>
+            <section class="main-section" id="links">
+                <header>
+                    <h1>Links</h1>
+                </header>
+                <p>Whereas the M in html stands for markup, the HT stands for hypertext, which is essentially another word for links. Links are extremely important when it comes to creating websites as they are what connect the various parts of the world wide web! To create a link we use the <code>a</code> or anchor element. Within this element we put in an href attribute which is followed by the link. So this would look like: <code>a href="link"</code></p>
+            </section>
+            <section class="main-section" id="images">
+                <header>
+                    <h1>Images</h1>
+                </header>
+                <p>Images are another important part of the web. With the <code>img</code> element we can add images to our website from other places around the internet. It is typically a good idea to add a description to your image using the <code>alt</code> attribute as this will help make the image more accessible for people who are visually impaired or if something causes the image not to display.</p>
+                <p>Using this code we can use and share images from all over the world wide web!</p>
+            </section>                      
+        </main>
+    </body>
+</html>
